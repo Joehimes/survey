@@ -1,0 +1,66 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#survey-form {
+    margin: 0 20px 0 20px;
+}
+
+#name, #email, #number, #dropdown {
+    margin: 10px 0 20px 0;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#definitely {
+    margin: 10px 0 10px 0;
+}
+
+#maybe {
+    margin: 0 0 10px 0;
+}
+
+#unsure {
+    margin: 0 0 30px 0;
+}
+
+input[type=checkbox] {
+    margin-top: 10px;
+}
+
+#additional-courses {
+    margin-bottom: 30px;
+}
+
+#comments {
+    margin: 10px 0 30px 0;
+    width: 100%;
+}
+
+#submit {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width:  600px) {
+    
+    #survey-form {
+        width: 30%;
+        margin: auto;
+    }
+}
